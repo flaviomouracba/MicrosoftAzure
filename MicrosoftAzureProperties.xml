@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Content xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Object id="MicrosoftAzure">
+    <Group>
+      <Name>General</Name>
+      <Type>Main</Type>
+      <Childs>
+        <Prop>
+          <Id>Width</Id>
+          <Name>Width</Name>
+          <Type>Text</Type>
+          <Default>100</Default>
+        </Prop>
+        <Prop>
+          <Id>Height</Id>
+          <Name>Height</Name>
+          <Type>Text</Type>
+          <Default>100</Default>
+        </Prop>
+        <Prop>
+          <Id>Config</Id>
+          <Name>Config</Name>
+          <Type>Custom</Type>
+          <CustomType>Artech.Genexus.Common.CustomTypes.ControlAttVarReference, Artech.Genexus.Common</CustomType>
+          <Metadata>
+            <Value name="FlagSetValueMethod">SetConfig</Value>
+            <Value name="FlagGetValueMethod">GetConfig</Value>
+            <Value name="FlagDataTypeFilter">ApplicationConfig</Value>
+          </Metadata>
+        </Prop>
+        <Prop>
+          <Id>Welcome</Id>
+          <Name>Welcome</Name>
+          <Type>Text</Type>
+          <Metadata />
+        </Prop>
+        <Group>
+          <Name>Data</Name>
+          <Childs>
+            <Prop>
+              <Id>Info</Id>
+              <Name>Info</Name>
+              <Type>Custom</Type>
+              <CustomType>Artech.Genexus.Common.CustomTypes.ControlAttVarReference, Artech.Genexus.Common</CustomType>
+              <Metadata>
+                <Value name="FlagSetValueMethod">SetInfo</Value>
+                <Value name="FlagGetValueMethod">GetInfo</Value>
+                <Value name="FlagDataTypeFilter">InfoData</Value>
+              </Metadata>
+            </Prop>
+          </Childs>
+        </Group>
+      </Childs>
+    </Group>
+  </Object>
+</Content>

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<ControlDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>1.2</Version>
+  <DataSourceAllowed>None</DataSourceAllowed>
+  <CustomDataSources />
+  <AutoGrowSupported>false</AutoGrowSupported>
+  <DefinitionDirectory>C:\Program Files (x86)\GeneXus\GeneXus15U12\UserControls\MicrosoftAzure</DefinitionDirectory>
+  <IncludeInControlInfo>false</IncludeInControlInfo>
+  <IsEditable>false</IsEditable>
+  <SupportFiles>
+    <File>ms.ico</File>
+    <File>ms.png</File>
+    <File>sigin.png</File>
+    <File>sigout.png</File>
+    <Directory>js</Directory>
+    <Directory>css</Directory>
+    <Directory>storage</Directory>
+  </SupportFiles>
+  <iOS_SupportFiles />
+  <Android_SupportFiles />
+  <BB_SupportFiles />
+  <RuntimeRender>MicrosoftAzureRender.js</RuntimeRender>
+  <HeightPropertyName>Height</HeightPropertyName>
+  <WidthPropertyName>Width</WidthPropertyName>
+  <ResizeSupported>true</ResizeSupported>
+  <ObjClass>MicrosoftAzure</ObjClass>
+  <Description>MicrosoftAzure</Description>
+  <OldDescriptions />
+  <Id>00000000-0000-0000-0000-000000000000</Id>
+  <Name>MicrosoftAzure</Name>
+  <Platforms />
+  <ShowMethod>show</ShowMethod>
+  <ReferencedFiles>
+    <File>js\bluebird.min.js</File>
+    <File>js\msal.js</File>
+    <File>css\style.css</File>
+  </ReferencedFiles>
+  <iOS_ReferencedFiles />
+  <Android_ReferencedFiles />
+  <BB_ReferencedFiles />
+  <Constructor>
+    <Parameters />
+    <Name>MicrosoftAzure</Name>
+  </Constructor>
+  <PropertiesDefinition>MicrosoftAzureProperties.xml</PropertiesDefinition>
+  <DesignRender>MicrosoftAzureRender.xsl</DesignRender>
+  <PlatformDefault>0</PlatformDefault>
+  <iOS_PlatformDefault>0</iOS_PlatformDefault>
+  <Android_PlatformDefault>0</Android_PlatformDefault>
+  <ToolboxIcon>ms.ico</ToolboxIcon>
+  <ControlType />
+  <Categories />
+  <Events>
+    <Event>Sign</Event>
+    <Event>Quit</Event>
+  </Events>
+  <Methods />
+  <Actions />
+  <IsPublic>true</IsPublic>
+  <Android_IsScrollable>false</Android_IsScrollable>
+</ControlDefinition>
